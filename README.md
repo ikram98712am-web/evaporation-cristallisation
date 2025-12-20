@@ -242,8 +242,6 @@ avec kg = 2.8×10⁻⁷ m/s, g = 1.5, Eg = 45 kJ/mol
 
 ## ⚠️ Corrections Importantes
 
-### Par rapport au code initial
-
 1. **EPE Dühring** : Coefficients corrigés selon l'énoncé
 2. **Coefficient d'encrassement** : Rf = 0.0002 appliqué
 3. **Bilan de population** : Résolution complète de l'EDP
@@ -252,14 +250,6 @@ avec kg = 2.8×10⁻⁷ m/s, g = 1.5, Eg = 45 kJ/mol
 6. **Intégration énergétique** : Récupération chaleur condensats
 7. **Tests unitaires** : Validation complète
 
----
-
-## 👥 Contribution
-
-### Répartition des Tâches (à adapter)
-
-- **Étudiant 1** : Évaporation + Thermodynamique
-- **Étudiant 2** : Cristallisation + Optimisation
 
 ### Travail en Équipe
 
@@ -267,37 +257,8 @@ avec kg = 2.8×10⁻⁷ m/s, g = 1.5, Eg = 45 kJ/mol
 - Réunions hebdomadaires
 - Documentation continue
 
----
 
-## 📝 Livrables
-
-### Code Python (40%)
-- [x] Modules complets et documentés
-- [x] Tests unitaires (pytest)
-- [x] Gestion d'erreurs
-- [x] Docstrings style NumPy
-
-### Rapport Technique (40%)
-- [ ] LaTeX (template fourni)
-- [ ] 10 pages max
-- [ ] Figures haute qualité
-- [ ] Bibliographie
-
-### Présentation Orale (20%)
-- [ ] PowerPoint/Beamer
-- [ ] 10 minutes
-- [ ] Démo code
-
----
-
-## 📅 Planning
-
-- **Semaine 1** : Évaporation + validation
-- **Semaine 2 (J1-3)** : Cristallisation + bilan population
-- **Semaine 2 (J4-5)** : Intégration + optimisation
-- **Semaine 3 (J1-3)** : Rapport + présentation
-
-**Date limite** : 15/12/2025
+**Date limite** : 24/12/2025
 
 ---
 
