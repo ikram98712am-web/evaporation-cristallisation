@@ -9,7 +9,7 @@
 - **Filière**: Procédés et Ingénierie Chimique (PIC)
 - **Niveau**: 3ème Année - Cycle d'Ingénieur
 - **Université**: Hassan 1 - FST Settat
-- **Année Universitaire**: 2024-2025
+- **Année Universitaire**: 2025-2026
 
 ---
 
@@ -36,18 +36,17 @@ projet_evaporation_cristallisation/
 ├── optimisation.py             # Analyse technico-économique (VAN, TRI)
 ├── main.py                     # Point d'entrée - démos
 ├── app_flask.py                # Interface web Flask
-├── test_projet.py              # Tests unitaires pytest
+├                               # Tests unitaires pytest
 ├── requirements.txt            # Dépendances Python
 ├── README.md                   # Ce fichier
 │
 ├── resultats/                  # Résultats de simulation
 │   ├── graphiques/
-│   └── donnees_calcul.xlsx
+│  
 │
 └── rapport/                    # Rapport LaTeX
     ├── rapport.tex
-    ├── rapport.pdf
-    └── figures/
+   
 ```
 
 ---
@@ -110,28 +109,28 @@ Puis ouvrir : http://127.0.0.1:5000/
 
 ## 📊 Fonctionnalités Implémentées
 
-### ✅ Partie 1 : Évaporation (40 points)
+### ✅ Partie 1 : Évaporation 
 
-- [x] **Modélisation thermodynamique** (15 points)
+- [x] **Modélisation thermodynamique** 
   - Corrélation de Dühring correcte (coefficients selon concentration)
   - Bilans matière et énergie complets
   - Coefficient d'encrassement Rf = 0.0002 m²·K/W
   - Validation bilans (erreur < 1%)
 
-- [x] **Optimisation énergétique** (10 points)
+- [x] **Optimisation énergétique**
   - Économie de vapeur calculée
   - Étude 2, 3, 4, 5 effets
   - Configuration optimale (VAN maximale)
 
-- [x] **Analyse de sensibilité** (15 points)
+- [x] **Analyse de sensibilité** 
   - Pression vapeur de chauffe
   - Concentration finale
   - Débit alimentation
   - Température alimentation
 
-### ✅ Partie 2 : Cristallisation (40 points)
+### ✅ Partie 2 : Cristallisation
 
-- [x] **Modélisation cinétique** (20 points)
+- [x] **Modélisation cinétique** 
   - Solubilité (équation 1 de l'énoncé)
   - Nucléation (équation 3)
   - Croissance (équation 4)
@@ -139,26 +138,26 @@ Puis ouvrir : http://127.0.0.1:5000/
   - Distribution de taille n(L,t)
   - Moments m0, m1, m3
 
-- [x] **Stratégie de refroidissement** (10 points)
+- [x] **Stratégie de refroidissement** 
   - Profil linéaire
   - Profil exponentiel
   - Profil optimal (S constant)
   - Comparaison DTG, L50, CV
 
-- [x] **Dimensionnement cristalliseur** (10 points)
+- [x] **Dimensionnement cristalliseur** 
   - Volume requis
   - Puissance agitation
   - Surface serpentin
   - Temps de résidence
 
-### ✅ Partie 3 : Intégration (20 points)
+### ✅ Partie 3 : Intégration 
 
-- [x] **Intégration énergétique** (10 points)
+- [x] **Intégration énergétique** 
   - Récupération chaleur condensats
   - Préchauffage alimentation
   - Économie énergétique calculée
 
-- [x] **Analyse technico-économique** (10 points)
+- [x] **Analyse technico-économique** 
   - CAPEX détaillé (évaporateurs, cristalliseur, échangeurs)
   - OPEX complet (vapeur, électricité, eau, main d'œuvre, maintenance)
   - **VAN** (Valeur Actuelle Nette)
@@ -322,6 +321,3 @@ Pour questions techniques :
 Ce projet est réalisé dans le cadre académique de la FST Settat.
 
 ---
-
-**Version** : 2.0 (Complète)  
-**Dernière mise à jour** : Décembre 2024
