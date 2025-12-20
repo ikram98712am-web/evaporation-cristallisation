@@ -311,7 +311,7 @@ avec kg = 2.8×10⁻⁷ m/s, g = 1.5, Eg = 45 kJ/mol
 ## 📧 Contact
 
 Pour questions techniques :
-- Email : amiri.ikr.fst@uhp.ac.ma
+- Email : amiri.ikr.fst@uhp.ac.ma / smajouk@gmail.com
 - Responsable module : Prof.BAKHER
 
 ---
